@@ -1,16 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <!-- title tag is used to display title of a web app in tab of browser-->
         <title>My Web App</title>
+        <!-- This below line is used for adding the logo icon in browser tab -->
         <link rel="icon" href="./assets/logo.png"/>
-        <style>
-            h3{
-                color: crimson;
-            }
-            h6{
-                color: blue;
-            }
-        </style>
+        <!-- This below line is linking our external css file into our html file-->
+        <link rel="stylesheet" href="./style.css" />
     </head>
     <body>
         Hello I'm body of HTML5
@@ -22,14 +18,9 @@
         <h5>Hello I'm h5 of HTML5</h5>
         <h6>Hello I'm h6 of HTML5</h6>
         <span></span>
-
-
-        <script>
-            console.log("Hello I'm Javascript");
-            console.log(document);
-            console.log(document.getElementsByTagName("h1")[0].innerHTML);
-            document.getElementsByTagName("span")[0].innerHTML="Hi, I'm coming from Javascript";
-            console.log(document.getElementsByTagName("span"));
-        </script>
+        <button class="primary-btn" id="primary-btn-id">Click Me!</button>
+        <button class="primary-btn" id="secondary-btn-id" onclick="dontClickButton()">Don't Click Me!</button>
+        <!-- This below line is created a bridge between .html & .js file, we have included app.js in our project-->
+        <script src="./app.js"></script>
     </body>
 </html>
