@@ -10,3 +10,25 @@ document.getElementById("primary-btn-id").addEventListener('click',function (){
 function dontClickButton(){
     alert("Ohhh Sorry! I Clicked You!!!");
 }
+
+function changeImage(){
+    let bulbVal=document.getElementById("bulb");
+    if(bulbVal.src.match("lightbulb-ON")){
+        bulbVal.src="./assets/lightbulb-OFF.png";
+    }
+    else{
+        bulbVal.src="./assets/lightbulb-ON.png";
+    }
+}
+
+const showPassword=()=>{
+    let inputValue=document.getElementById("inputVal");
+    let buttonValue=document.getElementById("change-id");
+    if(inputValue.type=='password'){
+        inputValue.type='text';
+        buttonValue.innerHTML='HIDE'
+    }else{
+        inputValue.type='password';
+        buttonValue.innerHTML='SHOW'
+    }
+}
