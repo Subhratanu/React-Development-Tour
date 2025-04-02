@@ -1,19 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Cards from './Components/Cards';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <p
-          className="App-link"
-          
-        >
-          Learn React from Edusite
-        </p>
-      </header>
+    <div>
+      <h1> This is my First ever React Application</h1>
+      {
+        // Calling the Cards component
+      }
+      <div className="cards">
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      <Cards/>
+      {Cards()}
+      </div>
+      
     </div>
   );
 }
