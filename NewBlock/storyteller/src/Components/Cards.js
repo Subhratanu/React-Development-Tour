@@ -9,12 +9,13 @@ HOW? -> CARDS.JS -> FUNCTIONAL COMPONENT
 THIS COMPONENT DERIVED FROM A JAVASCRIPT FUNCTION 
 */
 //Cards is a Functional Component
-function Cards(){
+function Cards({name,imgPath}){
+    // name & imgPath are props
     return(
         // JSX Snippet
             <div className="cards-layout"> 
-                <p>Name</p>
-                <img src="profile-image.png"/>
+                <p>{name}</p>
+                <img src={imgPath} alt="Profile-Avatar"/>
             </div>
     )
 }
