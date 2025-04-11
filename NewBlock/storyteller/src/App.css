@@ -1,12 +1,14 @@
 .cards-layout{
-  height: 200px;
+  height: auto;
   width: 10%;
   background-color: bisque;
   border: 1px solid black;
   margin-left: 3%;
   padding: 5px;
+  margin-bottom: 5vh;
 }
 
 .cards{
   display: flex;
+  flex-wrap: wrap;
 }

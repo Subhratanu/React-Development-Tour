@@ -16,10 +16,12 @@ function App() {
       {
         // Why we have put {} because we are going to write Javascript inside JSX
 
+        //Conditional Rendering using Ternary Operator
+
+        mockSampleData.users.length?
         mockSampleData.users.map((item)=>{
-          console.log("Hello I'm from MAP: "+item.firstName+" "+item.lastName);
-          return <Cards name={`${item.firstName} ${item.lastName}`} imgPath={item.image}/>
-        })
+          return <Cards key={item.id} data={item}/>
+        }):<h1 style={{color:"#FF0550"}}>NO User Details found at this moment!!!</h1>
       }
       </div>
       

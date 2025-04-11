@@ -1,5 +1,4 @@
-1. Div colour should get changed based on users EyeColor field. 
+1. DO the Classworks
 
-2. Along with name & image show username
+2. Identify how you can make conditional rendering apart from using ternary operator
 
-3. Try to explore how you can replicate the other nested fields in frontend UI. 
