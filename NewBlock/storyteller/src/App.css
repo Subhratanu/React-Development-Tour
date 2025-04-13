@@ -12,3 +12,15 @@
   display: flex;
   flex-wrap: wrap;
 }
+
+.cart-func{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn-primary{
+  background-color: blanchedalmond;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
