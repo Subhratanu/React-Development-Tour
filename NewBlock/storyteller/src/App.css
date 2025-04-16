@@ -8,6 +8,14 @@
   margin-bottom: 5vh;
 }
 
+.cards-shimmer-layout{
+  height: 200px;
+  width: 10%;
+  background-color: bisque;
+  margin-left: 3%;
+  padding: 5px;
+  margin-bottom: 5vh;
+}
 .cards{
   display: flex;
   flex-wrap: wrap;
