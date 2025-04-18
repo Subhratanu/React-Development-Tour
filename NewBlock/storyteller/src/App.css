@@ -32,3 +32,20 @@
   margin: 10px;
   border-radius: 10px;
 }
+
+.accordion{
+  width: 70%;
+  height: auto;
+  border: 1 px dotted slategray;
+}
+
+.accordion-header{
+  padding: 1px 1px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+
+.accordion-body{
+  padding: 1px 5px;
+  margin: 10px 5px;
+}
